@@ -1,0 +1,32 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+ <section>
+    <h2>Your Cart</h2>
+    <img src="https://media.istockphoto.com/id/2124102567/photo/orange-fruit-with-leaf.jpg?s=612x612&w=0&k=20&c=TUXQZs76_KNXdbffr6B9Jm74SQ-KbXAaikxTE78Qy6o=" height="250" alt="Juicy Orange">
+    <p>Orange</p>
+    <p>$2.98</p>
+</section>
+    <section>
+    <h2>Payment Information</h2>
+<form>
+    <label for="card-name" name='card-name'>Cardholder Name</label><input id="card-name" name='card-name' aria-required="true" required>
+    <label for="card-number" name="card-number" >Cardholder Number</label>
+    <input id="card-number" name="card-number" aria-required="true" required>
+    <input type="submit">
+</form>
+</body>
+
+</html>
+
+** end of index.html **
+
